@@ -1,0 +1,6 @@
+<div [ngSwitch]="state" text-center>
+  <ion-icon *ngSwitchCase="'normal'" name="heart" ></ion-icon>
+  <ion-icon *ngSwitchCase="'beating'" name="heart" class="pulse"></ion-icon>
+  <ion-icon *ngSwitchCase="'right' " secondary name="checkmark-circle" class="appear"></ion-icon>
+  <ion-icon *ngSwitchCase="'wrong'" danger name="close-circle" class="appear"></ion-icon>
+</div>

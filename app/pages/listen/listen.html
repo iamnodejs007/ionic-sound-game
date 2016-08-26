@@ -1,0 +1,23 @@
+<!--
+  Generated template for the ListenPage page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <ion-title>Escuchar</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item *ngFor="let sound of sounds">
+      <h2>{{sound.name}}</h2>
+      <p>{{sound.description}}</p>
+      <button clear item-right (click)="playItem(sound)">
+        <ion-icon name='play' is-active="false"></ion-icon>
+      </button>
+    </ion-item>
+  </ion-list>
+</ion-content>
