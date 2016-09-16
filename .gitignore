@@ -10,3 +10,5 @@ plugins/
 Thumbs.db
 
 .idea
+
+www/data/sounds/
