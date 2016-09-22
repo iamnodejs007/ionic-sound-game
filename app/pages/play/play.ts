@@ -52,10 +52,6 @@ export class PlayPage {
       s.push(randomSounds.correct);
       this.correct = randomSounds.correct['filename'];
       this.track = this.audioProvider.create(randomSounds.correct);
-      this.track.audio.addEventListener("ended", () => {
-        this.track.seekTo(0);
-        this.track.play();
-      }, false);
       console.log(randomSounds.correct['filename']);
       this.sounds = _.shuffle(s);
       if(this.is_playing){
