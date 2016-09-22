@@ -12,12 +12,15 @@
 
 <ion-content>
   <ion-list>
-    <ion-item *ngFor="let sound of sounds">
-      <h2>{{sound.name}}</h2>
-      <p>{{sound.description}}</p>
-      <button clear item-right (click)="playItem(sound)">
-        <ion-icon name='play' is-active="false"></ion-icon>
-      </button>
-    </ion-item>
+    <ion-item-group *ngFor="let category of sounds">
+
+      <ion-item-divider light>{{category.name}}</ion-item-divider>
+      <ion-item *ngFor="let sound of category.sounds">
+        <p text-wrap>{{sound.name}}</p>
+        <button clear item-right (click)="playItem(sound)">
+          <ion-icon name='play' is-active="false"></ion-icon>
+        </button>
+      </ion-item>
+    </ion-item-group>
   </ion-list>
 </ion-content>

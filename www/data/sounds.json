@@ -2,426 +2,618 @@
   {
     "description": "", 
     "name": "Ritmo cardiaco normal en el adulto", 
+    "categories": [
+      "Auscultaci\u00f3n normal"
+    ], 
     "filename": "01-ritmo.mp3"
   }, 
   {
     "description": "", 
-    "name": "Taquicardia sinusal regular 140ppm", 
+    "name": "Taquicardia sinusal regular FC 140 lpm", 
+    "categories": [
+      "Arritmias sinusales"
+    ], 
     "filename": "02-taqui.mp3"
   }, 
   {
     "description": "", 
-    "name": "Bradicardia sinusal regular 48ppm", 
+    "name": "Bradicardia sinusal regular FC 48 lpm", 
+    "categories": [
+      "Arritmias sinusales"
+    ], 
     "filename": "03-bradi.mp3"
   }, 
   {
     "description": "", 
     "name": "Arritmia sinusal respiratoria regular", 
+    "categories": [
+      "Arritmias sinusales"
+    ], 
     "filename": "04-arrit.mp3"
   }, 
   {
     "description": "", 
-    "name": "Ritmo pendular", 
-    "filename": "05-ritmo.mp3"
-  }, 
-  {
-    "description": "", 
-    "name": "Embriocardia", 
-    "filename": "06-embri.mp3"
-  }, 
-  {
-    "description": "", 
     "name": "Extrasistolia auricular sin desdoblamiento del primer ruido cardiaco", 
+    "categories": [
+      "Extrasistolias"
+    ], 
     "filename": "07-extra.mp3"
   }, 
   {
     "description": "", 
     "name": "Extrasistolia ventricular con desdoblamiento del primer ruido cardiaco", 
+    "categories": [
+      "Extrasistolias", 
+      "Ruidos card\u00edacos"
+    ], 
     "filename": "08-extra.mp3"
   }, 
   {
     "description": "", 
-    "name": "Extrasistolia auricular de aparicion frecuente con distribucion irregular", 
-    "filename": "09-extra.mp3"
-  }, 
-  {
-    "description": "", 
     "name": "Extrasistolia ventricular en salvas", 
+    "categories": [
+      "Extrasistolias"
+    ], 
     "filename": "10-extra.mp3"
   }, 
   {
     "description": "", 
-    "name": "Extrasistolia auricular con la distribucion irregular de un bigeminismo", 
-    "filename": "11-extra.mp3"
-  }, 
-  {
-    "description": "", 
     "name": "Bigeminismo sin soplo inmediato sistolico de insuficiencia mitral", 
+    "categories": [
+      "Extrasistolias"
+    ], 
     "filename": "12-bigem.mp3"
   }, 
   {
     "description": "", 
-    "name": "Extrasistolia ventricular con la distribucion irregular de un cuadrigeminismo", 
-    "filename": "13-extra.mp3"
-  }, 
-  {
-    "description": "", 
-    "name": "Accesos frecuentes de taquicardia paraoxistica supraventricular", 
+    "name": "Accesos frecuentes de taquicardia paroxistica supraventricular", 
+    "categories": [
+      "Taquicardias parox\u00edsticas"
+    ], 
     "filename": "14-acces.mp3"
   }, 
   {
     "description": "", 
     "name": "Interrupcion de taquicardia paraoxistica mediante compresion del seno carotideo ", 
+    "categories": [
+      "Taquicardias parox\u00edsticas"
+    ], 
     "filename": "15-inter.mp3"
   }, 
   {
     "description": "", 
-    "name": "Forma taquicardica de la arritmia ventricular total en la fibrilacion auricular 156ppm", 
+    "name": "Forma taquicardica de la arritmia ventricular total en la fibrilacion auricular FC 156 lpm", 
+    "categories": [
+      "Arritmias supraventriculares"
+    ], 
     "filename": "16-forma.mp3"
   }, 
   {
     "description": "", 
-    "name": "Forma bradicardica de la arritmia ventricular total en la fibrilacion auricular 64ppm ", 
+    "name": "Forma bradicardica de la arritmia ventricular total en la fibrilacion auricular FC 64 lpm ", 
+    "categories": [
+      "Arritmias supraventriculares"
+    ], 
     "filename": "17-forma.mp3"
   }, 
   {
     "description": "", 
-    "name": "Aleteo auricular con bloqueo regular 1 1 200ppm", 
+    "name": "Aleteo auricular con bloqueo regular 1:1 FC 200 lpm", 
+    "categories": [
+      "Arritmias supraventriculares"
+    ], 
     "filename": "18-alete.mp3"
   }, 
   {
     "description": "", 
-    "name": "Aleteo auricular con bloqueo regular 2 1 132ppm", 
+    "name": "Aleteo auricular con bloqueo regular 2:1 FC 132 lpm", 
+    "categories": [
+      "Arritmias supraventriculares"
+    ], 
     "filename": "19-alete.mp3"
   }, 
   {
     "description": "", 
-    "name": "Aleteo auricular con bloqueo irregular - bloqueos tipo 21 31 y 41", 
+    "name": "Aleteo auricular con bloqueo irregular - bloqueos variables tipo 2:1 3:1 y 4:1", 
+    "categories": [
+      "Arritmias supraventriculares"
+    ], 
     "filename": "20-alete.mp3"
   }, 
   {
     "description": "", 
     "name": "Bloqueo sinoauricular de aparicion ocasional", 
+    "categories": [
+      "Bloqueos"
+    ], 
     "filename": "21-bloqu.mp3"
   }, 
   {
     "description": "", 
     "name": "Bloqueo auriculoventricular de primer grado", 
+    "categories": [
+      "Bloqueos"
+    ], 
     "filename": "22-bloqu.mp3"
   }, 
   {
     "description": "", 
     "name": "Bloqueo auriculoventricular de segundo grado ausencia ocasional de la sistole ventricular con ruido auricular apenas perceptible", 
+    "categories": [
+      "Bloqueos", 
+      "Ruidos card\u00edacos"
+    ], 
     "filename": "23-bloqu.mp3"
   }, 
   {
     "description": "", 
     "name": "Bloqueo auriculoventricular de tercer grado", 
+    "categories": [
+      "Bloqueos"
+    ], 
     "filename": "24-bloqu.mp3"
   }, 
   {
     "description": "", 
     "name": "Bloqueo de rama izquierda con desdoblamiento del segundo ruido", 
+    "categories": [
+      "Bloqueos", 
+      "Ruidos card\u00edacos"
+    ], 
     "filename": "25-bloqu.mp3"
   }, 
   {
     "description": "", 
-    "name": "Bloqueo de rama derecha de wilson con desdoblamiento del primer ruido", 
+    "name": "Bloqueo de rama derecha de Wirsung con desdoblamiento del primer ruido", 
+    "categories": [
+      "Bloqueos", 
+      "Ruidos card\u00edacos"
+    ], 
     "filename": "26-bloqu.mp3"
   }, 
   {
     "description": "", 
-    "name": "Soplo diastolico inmediato patognomolico de la isuficiencia aortica", 
+    "name": "Soplo diastolico inmediato patognomonico de la insuficiencia aortica", 
+    "categories": [
+      "Soplos"
+    ], 
     "filename": "27-soplo.mp3"
   }, 
   {
     "description": "", 
-    "name": "Soplo protodiastonico con intervalo en la estenosis mitral", 
+    "name": "Soplo protodiastolico con intervalo en la estenosis mitral", 
+    "categories": [
+      "Soplos"
+    ], 
     "filename": "28-soplo.mp3"
   }, 
   {
     "description": "", 
     "name": "Soplo decrescendo", 
+    "categories": [
+      "Soplos"
+    ], 
     "filename": "29-soplo.mp3"
   }, 
   {
     "description": "", 
     "name": "Soplo crescendo", 
+    "categories": [
+      "Soplos"
+    ], 
     "filename": "30-soplo.mp3"
   }, 
   {
     "description": "", 
     "name": "Soplo isodinamico", 
+    "categories": [
+      "Soplos"
+    ], 
     "filename": "31-soplo.mp3"
   }, 
   {
     "description": "", 
     "name": "Soplo musical", 
+    "categories": [
+      "Soplos"
+    ], 
     "filename": "32-soplo.mp3"
   }, 
   {
     "description": "", 
     "name": "Soplo de timbre aspero en sistole y timbre fluyente en diastole", 
+    "categories": [
+      "Soplos"
+    ], 
     "filename": "33-soplo.mp3"
   }, 
   {
     "description": "", 
     "name": "Soplo de sonido raspante", 
+    "categories": [
+      "Soplos"
+    ], 
     "filename": "34-soplo.mp3"
   }, 
   {
     "description": "", 
-    "name": "Insuficiencia aortica con soplo inmediato fluyente olodiastolico", 
+    "name": "Insuficiencia aortica con soplo inmediato fluyente holodiastolico \u2013 Forma endocarditica de la insuficiencia valvular", 
+    "categories": [
+      "Soplos"
+    ], 
     "filename": "35-insuf.mp3"
   }, 
   {
     "description": "", 
-    "name": "Insuficiencia aortica con soplo inmediato diastolico de timbre musical", 
+    "name": "Insuficiencia aortica con soplo inmediato diastolico de timbre musical \u2013 Forma esclerosante del defecto valvular", 
+    "categories": [
+      "Soplos"
+    ], 
     "filename": "36-insuf.mp3"
   }, 
   {
     "description": "", 
     "name": "Estenosis de las valvulas aorticas de tipo 1 sin segundo ruido cardiaco", 
+    "categories": [
+      "Soplos"
+    ], 
     "filename": "37-esten.mp3"
   }, 
   {
     "description": "", 
     "name": "Estenosis de las valvulas aorticas de tipo 2 con segundo ruido cardiaco acentuado", 
+    "categories": [
+      "Soplos", 
+      "Ruidos card\u00edacos"
+    ], 
     "filename": "38-esten.mp3"
   }, 
   {
     "description": "", 
     "name": "Defectos valvulares aorticos combinados", 
+    "categories": [
+      "Soplos"
+    ], 
     "filename": "39-defec.mp3"
   }, 
   {
     "description": "", 
-    "name": "Insuficiencia mitral de tipo 1 con soplo inmediato olosistolico de caracter decrescendo", 
+    "name": "Insuficiencia mitral de tipo 1 con soplo inmediato holosistolico de caracter decrescendo", 
+    "categories": [
+      "Soplos"
+    ], 
     "filename": "40-insuf.mp3"
   }, 
   {
     "description": "", 
-    "name": "Insuficiencia mitral de tipo 2 con soplo inmediato olosistolico de instensidad constante", 
+    "name": "Insuficiencia mitral de tipo 2 con soplo inmediato holosistolico de intensidad constante", 
+    "categories": [
+      "Soplos"
+    ], 
     "filename": "41-insuf.mp3"
   }, 
   {
     "description": "", 
     "name": "Insuficiencia mitral de tipo 3 con soplo de intervalo telesistolico de caracter crescendo", 
+    "categories": [
+      "Soplos"
+    ], 
     "filename": "42-insuf.mp3"
   }, 
   {
     "description": "", 
     "name": "Estenosis mitral con chasquido de apertura mitral en la fibrilacion lenta", 
+    "categories": [
+      "Ruidos card\u00edacos"
+    ], 
     "filename": "43-esten.mp3"
   }, 
   {
     "description": "", 
     "name": "Estenosis mitral con ruido de apertura mitral y soplo de intervalo protodiastolico en el ritmo sinusal", 
+    "categories": [
+      "Soplos", 
+      "Ruidos card\u00edacos"
+    ], 
     "filename": "44-esten.mp3"
   }, 
   {
     "description": "", 
     "name": "Estenosis mitral con soplo presistolico increscendo y primer ruido resonante", 
+    "categories": [
+      "Soplos", 
+      "Ruidos card\u00edacos"
+    ], 
     "filename": "45-esten.mp3"
   }, 
   {
     "description": "", 
-    "name": "Soplo inmediato sistolico de insuficiencia mitral, soplo de intervalo diastolico de estenosis mitral", 
+    "name": "Defecto mitral combinado \u2013 Soplo inmediato sistolico de insuficiencia mitral, soplo de intervalo diastolico de estenosis mitral", 
+    "categories": [
+      "Soplos"
+    ], 
     "filename": "46-soplo.mp3"
   }, 
   {
     "description": "", 
-    "name": "Soplo sistolico de esclerosis de sonido aspero", 
+    "name": "Esclerosis aortica \u2013 Soplo sistolico de esclerosis de sonido aspero", 
+    "categories": [
+      "Soplos"
+    ], 
     "filename": "47-soplo.mp3"
   }, 
   {
     "description": "", 
-    "name": "Soplos sistolicos de sonido musical distribuidos de forma irregular", 
+    "name": "Soplo por trombos \u2013 Soplos sistolicos de sonido musical distribuidos de forma irregular", 
+    "categories": [
+      "Soplos"
+    ], 
     "filename": "48-soplo.mp3"
   }, 
   {
     "description": "", 
     "name": "Pericarditis seca en el infarto de pared anterior con ruido de frote pericardico", 
+    "categories": [
+      "Ruidos card\u00edacos"
+    ], 
     "filename": "49-peric.mp3"
   }, 
   {
     "description": "", 
     "name": "Endocarditis florida reumatica con soplos sistolico y diastolico debiles", 
+    "categories": [
+      "Soplos"
+    ], 
     "filename": "50-endoc.mp3"
   }, 
   {
     "description": "", 
     "name": "Soplo de intervalo sistolico accidental con sonido musical", 
+    "categories": [
+      "Soplos"
+    ], 
     "filename": "51-soplo.mp3"
   }, 
   {
     "description": "", 
-    "name": "Persistencia del conducto de botal con soplo continuo sistolico diastolico bifasico", 
+    "name": "Persistencia del conducto arterioso con soplo continuo sistolico diastolico bifasico", 
+    "categories": [
+      "Soplos"
+    ], 
     "filename": "52-persi.mp3"
   }, 
   {
     "description": "", 
     "name": "Debilitamiento del primer ruido cardiaco, reforzamiento del segundo", 
+    "categories": [
+      "Ruidos card\u00edacos"
+    ], 
     "filename": "53-debil.mp3"
   }, 
   {
     "description": "", 
     "name": "Defecto del tabique interauricular", 
+    "categories": [
+      "Ruidos card\u00edacos"
+    ], 
     "filename": "54-defec.mp3"
   }, 
   {
     "description": "", 
-    "name": "Tetralogia de falot, con doble soplo sistolico", 
+    "name": "Tetralogia de Fallot, con doble soplo sistolico", 
+    "categories": [
+      "Soplos"
+    ], 
     "filename": "55-tetra.mp3"
   }, 
   {
     "description": "", 
-    "name": "No se escucha el cd", 
-    "filename": "56-no se.mp3"
-  }, 
-  {
-    "description": "", 
     "name": "Signos auscultatorios normales en el nino, arritmia respiratoria simultanea", 
+    "categories": [
+      "Auscultaci\u00f3n normal"
+    ], 
     "filename": "57-signo.mp3"
   }, 
   {
     "description": "", 
     "name": "Signos auscultatorios normales en el recien nacido", 
+    "categories": [
+      "Auscultaci\u00f3n normal"
+    ], 
     "filename": "58-signo.mp3"
   }, 
   {
     "description": "", 
     "name": "Ruidos cardiacos fetales y pulso materno como suave soplo sistolico", 
+    "categories": [
+      "Auscultaci\u00f3n normal"
+    ], 
     "filename": "59-ruido.mp3"
   }, 
   {
     "description": "", 
     "name": "Desdoblamiento del primer ruido cardiaco", 
+    "categories": [
+      "Ruidos card\u00edacos"
+    ], 
     "filename": "60-desdo.mp3"
   }, 
   {
     "description": "", 
     "name": "Duplicacion del primer ruido cardiaco", 
+    "categories": [
+      "Ruidos card\u00edacos"
+    ], 
     "filename": "61-dupli.mp3"
   }, 
   {
     "description": "", 
     "name": "Click mesosistolico", 
+    "categories": [
+      "Ruidos card\u00edacos"
+    ], 
     "filename": "62-click.mp3"
   }, 
   {
     "description": "", 
     "name": "Click telesistolico", 
+    "categories": [
+      "Ruidos card\u00edacos"
+    ], 
     "filename": "63-click.mp3"
   }, 
   {
     "description": "", 
-    "name": "Click telesistolico con incidencia variable", 
-    "filename": "64-click.mp3"
-  }, 
-  {
-    "description": "", 
     "name": "Desdoblamiento del segundo ruido cardiaco", 
+    "categories": [
+      "Ruidos card\u00edacos"
+    ], 
     "filename": "65-desdo.mp3"
   }, 
   {
     "description": "", 
     "name": "Duplicacion del segundo ruido cardiaco en el bloqueo de rama izquierda", 
+    "categories": [
+      "Ruidos card\u00edacos"
+    ], 
     "filename": "66-dupli.mp3"
   }, 
   {
     "description": "", 
     "name": "Duplicacion del segundo ruido cardiaco en la extrasistolia ventricular", 
+    "categories": [
+      "Ruidos card\u00edacos"
+    ], 
     "filename": "67-dupli.mp3"
   }, 
   {
     "description": "", 
-    "name": "No se escucha el cd", 
-    "filename": "68-no se.mp3"
-  }, 
-  {
-    "description": "", 
     "name": "Chasquido de apertura mitral de gran intervalo con ritmo sinusal", 
+    "categories": [
+      "Ruidos card\u00edacos"
+    ], 
     "filename": "69-chasq.mp3"
   }, 
   {
     "description": "", 
     "name": "Chasquido de apertura mitral de intervalo breve con ritmo sinusal", 
+    "categories": [
+      "Ruidos card\u00edacos"
+    ], 
     "filename": "70-chasq.mp3"
   }, 
   {
     "description": "", 
     "name": "Chasquido de apertura mitral de gran intervalo en la fibrilacion lenta", 
+    "categories": [
+      "Ruidos card\u00edacos"
+    ], 
     "filename": "71-chasq.mp3"
   }, 
   {
     "description": "", 
     "name": "Chasquido de apertura mitral de intervalo breve en la fibrilacion lenta", 
+    "categories": [
+      "Ruidos card\u00edacos"
+    ], 
     "filename": "72-chasq.mp3"
   }, 
   {
     "description": "", 
     "name": "Chasquido de apertura mitral en la fibrilacion rapida", 
+    "categories": [
+      "Ruidos card\u00edacos"
+    ], 
     "filename": "73-chasq.mp3"
   }, 
   {
     "description": "", 
     "name": "Tercer ruido cardiaco audible como hallazgo fisiologico en la edad juvenil", 
+    "categories": [
+      "Auscultaci\u00f3n normal"
+    ], 
     "filename": "74-terce.mp3"
   }, 
   {
     "description": "", 
     "name": "Tercer ruido cardiaco audible como signo patologico en los adultos", 
+    "categories": [
+      "Ruidos card\u00edacos"
+    ], 
     "filename": "75-terce.mp3"
   }, 
   {
     "description": "", 
     "name": "Ruido auricular audible", 
+    "categories": [
+      "Auscultaci\u00f3n normal"
+    ], 
     "filename": "76-ruido.mp3"
   }, 
   {
     "description": "", 
-    "name": "Debilitamiento primario del primer ruido cardiaco en el infarto coronariano", 
+    "name": "Debilitamiento primario del primer ruido cardiaco en el infarto coronario", 
+    "categories": [
+      "Ruidos card\u00edacos"
+    ], 
     "filename": "77-debil.mp3"
   }, 
   {
     "description": "", 
-    "name": "Apagamiento secundario de ambos ruidos cardiacos en el enfisema pulmonar y soplos inspiratorios bronquiestasicos", 
+    "name": "Apagamiento secundario de ambos ruidos cardiacos en el enfisema pulmonar y soplos inspiratorios bronquiectasicos", 
+    "categories": [
+      "Ruidos card\u00edacos"
+    ], 
     "filename": "78-apaga.mp3"
   }, 
   {
     "description": "", 
     "name": "Reforzamiento del primer ruido", 
+    "categories": [
+      "Ruidos card\u00edacos"
+    ], 
     "filename": "79-refor.mp3"
   }, 
   {
     "description": "", 
     "name": "Primer ruido retumbante en la estenosis mitral", 
+    "categories": [
+      "Ruidos card\u00edacos"
+    ], 
     "filename": "80-prime.mp3"
   }, 
   {
     "description": "", 
-    "name": "Resonancia del primer ruido timbre musical exultante de algunos primeros ruidos aislados", 
-    "filename": "81-reson.mp3"
-  }, 
-  {
-    "description": "", 
     "name": "Reforzamiento del segundo ruido cardiaco", 
+    "categories": [
+      "Ruidos card\u00edacos"
+    ], 
     "filename": "82-refor.mp3"
   }, 
   {
     "description": "", 
-    "name": "Acentuacion del segundo ruido cardiaco soplo sistolico aspero de esclerosis", 
+    "name": "Acentuacion del segundo ruido cardiaco con soplo sistolico aspero de esclerosis", 
+    "categories": [
+      "Ruidos card\u00edacos", 
+      "Soplos"
+    ], 
     "filename": "83-acent.mp3"
   }, 
   {
     "description": "", 
-    "name": "Acentuacion del segundo ruido en la insuficiencia aortica", 
+    "name": "Acentuacion del segundo ruido en la insuficiencia aortica con soplo diastolico", 
+    "categories": [
+      "Ruidos card\u00edacos", 
+      "Soplos"
+    ], 
     "filename": "84-acent.mp3"
   }, 
   {
     "description": "", 
     "name": "Resonancia del segundo ruido cardiaco. timbre musical del segundo ruido aortico en el aneurisma de la aorta", 
+    "categories": [
+      "Ruidos card\u00edacos"
+    ], 
     "filename": "85-reson.mp3"
   }
 ]

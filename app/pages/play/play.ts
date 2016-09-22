@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { NavController, NavParams} from 'ionic-angular';
 import {HeartMonitor} from "../../components/heart-monitor/heart-monitor";
 import {SoundData} from "../../providers/sound-data/sound-data";
 import * as _ from "lodash";
@@ -22,8 +22,10 @@ export class PlayPage {
   sounds: Array<{name: string, filename: string, description: string}> = [];
   correct: string;
   is_playing = false;
+  category:string = "";
 
-  constructor(private navCtrl: NavController, private soundData:SoundData) {
+  constructor(private navCtrl: NavController, navParams:NavParams, private soundData:SoundData) {
+    this.category = navParams.get('category')
     this.resetGame()
   }
 
@@ -43,7 +45,7 @@ export class PlayPage {
     if(this.is_playing && this.correct){
       NativeAudio.stop(this.correct);
     }
-    this.soundData.getRandomSounds().then(randomSounds=>{
+    this.soundData.getRandomSounds(this.category).then(randomSounds=>{
       let s = [];
       randomSounds.other_values.forEach(val=>s.push(val));
       s.push(randomSounds.correct);
