@@ -23,8 +23,9 @@
 
           <h3 *ngIf="!audio.error">{{track.name}}</h3>
           <del *ngIf="audio.error">{{track.name}}</del>
-          <ion-note item-right>
-            <audio-track-progress [audioTrack]="audio"></audio-track-progress>
+          <ion-note>
+            <audio-track-progress *ngIf="audio.isPlaying" [audioTrack]="audio"></audio-track-progress>
+            <span *ngIf="!audio.isPlaying" >00:00 / 00:00</span>
           </ion-note>
         </ion-item>
       </audio-track>
