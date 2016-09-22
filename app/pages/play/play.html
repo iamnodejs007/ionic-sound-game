@@ -6,8 +6,8 @@
 -->
 
 <ion-header>
-  <ion-navbar>
-    <ion-title>Adivinar</ion-title>
+  <ion-navbar primary>
+    <ion-title>Reconocer</ion-title>
   </ion-navbar>
 </ion-header>
 
@@ -18,7 +18,7 @@
     <button round (click)="clickPlay()"><ion-icon name="play"></ion-icon></button>
   </p>
   <ion-list>
-    <button *ngFor="let sound of sounds" ion-item (click)="selectSound(sound.filename)">
+    <button *ngFor="let sound of sounds" ion-item (click)="selectSound(sound.filename)" text-wrap>
       {{sound.name}}
     </button>
   </ion-list>
