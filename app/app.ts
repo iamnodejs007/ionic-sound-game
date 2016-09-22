@@ -1,8 +1,9 @@
-import {Component} from '@angular/core';
+import {Component, provide} from '@angular/core';
 import {Platform, ionicBootstrap} from 'ionic-angular';
 import {StatusBar} from 'ionic-native';
 import {HomePage} from "./pages/home/home";
 import {SoundData} from "./providers/sound-data/sound-data";
+import {AudioProvider} from 'ionic-audio/dist/ionic-audio';
 
 
 @Component({
@@ -23,4 +24,4 @@ export class MyApp {
   }
 }
 
-ionicBootstrap(MyApp, [SoundData]);
+ionicBootstrap(MyApp, [SoundData, provide(AudioProvider, {useFactory: AudioProvider.factory})]);

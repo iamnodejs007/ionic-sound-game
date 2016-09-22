@@ -15,7 +15,10 @@
 <ion-content>
   <heart-monitor [state]="state" ></heart-monitor>
   <p text-center>
-    <button round (click)="clickPlay()"><ion-icon name="play"></ion-icon></button>
+    <button clear (click)="toggle($event)">
+      <ion-icon name="square" *ngIf="is_playing"></ion-icon>
+      <ion-icon name="play" *ngIf="!is_playing"></ion-icon>
+    </button>
   </p>
   <ion-list>
     <button *ngFor="let sound of sounds" ion-item (click)="selectSound(sound.filename)" text-wrap>

@@ -1,6 +1,5 @@
 import {Injectable} from '@angular/core';
 import {Http} from '@angular/http';
-import {NativeAudio} from 'ionic-native';
 import 'rxjs/add/operator/map';
 import * as _ from 'lodash';
 
@@ -22,7 +21,8 @@ export class SoundData {
       this.http.get('data/sounds.json').subscribe(res => {
         this.data = res.json();
         this.data.map(item=> {
-          NativeAudio.preloadComplex(item.filename, 'data/sounds/' + item.filename, 1, 1, 0);
+          item['src'] = 'data/sounds/' + item.filename;
+          item['preload'] = 'none';
           for (let cat of item.categories) {
             if (!(cat in this.categorized_data)) {
               this.categorized_data[cat] = [item]

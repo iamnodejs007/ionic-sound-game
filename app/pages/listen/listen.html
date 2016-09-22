@@ -15,12 +15,19 @@
     <ion-item-group *ngFor="let category of sounds">
 
       <ion-item-divider light>{{category.name}}</ion-item-divider>
-      <ion-item text-wrap *ngFor="let sound of category.sounds" class="item-text-wrap">
-        <p>{{sound.name}}</p>
-        <button clear item-right (click)="playItem(sound)">
-          <ion-icon name='play' is-active="false"></ion-icon>
-        </button>
-      </ion-item>
+      <audio-track #audio *ngFor="let track of category.sounds" [track]="track">
+        <ion-item text-wrap>
+          <audio-track-play-stop item-left light [audioTrack]="audio">
+            <ion-spinner></ion-spinner>
+          </audio-track-play-stop>
+
+          <h3 *ngIf="!audio.error">{{track.name}}</h3>
+          <del *ngIf="audio.error">{{track.name}}</del>
+          <ion-note item-right>
+            <audio-track-progress [audioTrack]="audio"></audio-track-progress>
+          </ion-note>
+        </ion-item>
+      </audio-track>
     </ion-item-group>
   </ion-list>
 </ion-content>

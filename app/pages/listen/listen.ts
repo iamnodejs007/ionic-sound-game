@@ -1,7 +1,8 @@
 import {Component} from '@angular/core';
 import {NavController} from 'ionic-angular';
 import {SoundData} from "../../providers/sound-data/sound-data";
-import {NativeAudio} from "ionic-native";
+import {AudioTrackComponent, AudioTrackProgressComponent, AudioTrackProgressBarComponent, AudioTimePipe, AudioProvider} from 'ionic-audio/dist/ionic-audio';
+import {AudioTrackPlayStopComponent} from "../../components/audio-track-play-stop/ionic-audio-track-play-component";
 
 /*
  Generated class for the ListenPage page.
@@ -11,6 +12,7 @@ import {NativeAudio} from "ionic-native";
  */
 @Component({
   templateUrl: 'build/pages/listen/listen.html',
+  directives: [AudioTrackComponent, AudioTrackPlayStopComponent, AudioTrackProgressComponent, AudioTrackProgressBarComponent],
 })
 export class ListenPage {
 
@@ -18,7 +20,9 @@ export class ListenPage {
     sounds: Array<{name: string, filename: string, description: string}>
   }> = [];
 
-  constructor(private navCtrl: NavController, soundData: SoundData) {
+  allTracks:any[];
+
+  constructor(private audioProvider:AudioProvider, private navCtrl: NavController, soundData: SoundData) {
     soundData.getCategorizedSounds().then(sounds=> {
       for(let cat in sounds){
         this.sounds.push({name:cat, sounds:sounds[cat]});
@@ -26,9 +30,11 @@ export class ListenPage {
     });
   }
 
-  playItem(item) {
-    console.log("playing " + item.filename);
-    NativeAudio.play(item.filename, function () {
-    });
+  ngAfterContentInit() {
+    // get all tracks managed by AudioProvider so we can control playback via the API
+    this.allTracks = this.audioProvider.tracks;
+  }
+  ionViewWillLeave() {
+    this.audioProvider.stop();
   }
 }
